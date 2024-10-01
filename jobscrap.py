@@ -60,41 +60,4 @@ try:
             print("No more data to load or Load More button not found.")
             break 
 finally:
-    driver.quit()        
-
-
-
-
-
-
-
-# html_content = driver.page_source
-
-    # soup = BeautifulSoup(html_content, 'html.parser')
-
-    # job_result = soup.find_all('div', class_='table-td table-title')
-
-    # for job in job_result:
-    #     rst=job.find('div')
-    #     if rst:
-    #         print(rst.text)
-    # WebDriverWait(driver, 10).until(
-    #     EC.presence_of_element_located((By.CLASS_NAME, 'table-td'))
-    # )
-
-    # Function to extract job data
-
-
-
-
-
-
-
- # WebDriverWait(driver, 10).until(
-    #     EC.presence_of_element_located((By.CLASS_NAME, 'table-td'))
-    # )
-        # job_result = driver.find_elements(By.CSS_SELECTOR, '.table-td.table-title')  # Adjust class name as needed
-        # for job in job_result:
-        #     title_element = job.find_element(By.TAG_NAME, 'div')  # Assuming titles are in <h2> tags
-        #     if title_element:
-        #         print(title_element.text.strip())    
+    driver.quit()    
